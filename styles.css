@@ -1,0 +1,65 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.js_main
+{
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.nk
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.nk input
+{
+  margin: 0 auto;
+  width: 20%;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  background-color: #37b892;
+  border: none;
+  transition: 0.3s all;
+  border-radius: 5px;
+}
+.nk button
+{
+  margin: 0 auto;
+  width: 20%;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  background-color: #37b892;
+  border: none;
+  transition: 0.3s all;
+  border-radius: 5px;
+}
+.nk input:hover
+{
+  filter: brightness(0.8);
+  transition: 0.3s all;
+}
+.nk button:hover
+{
+  filter: brightness(0.8);
+  transition: 0.3s all;
+}
+.text
+{
+  font-size: 48px;
+  color: #37b892;
+  text-align: center;
+}
+.color
+{
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+  color: transparent;
+}
